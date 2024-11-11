@@ -1,0 +1,2 @@
+# Mythos
+Terraria Mythology Mod
