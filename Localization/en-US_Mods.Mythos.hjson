@@ -65,12 +65,23 @@ Items: {
 		DisplayName: Bright Steel Helmet
 		Tooltip: ""
 	}
+
+	BrightSteelArrow: {
+		DisplayName: Bright Steel Arrow
+		Tooltip: ""
+	}
+
+	BrightSteelBow: {
+		DisplayName: Bright Steel Bow
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
 	SpearOfDestinyProjectile.DisplayName: Spear Of Destiny Projectile
 	CornucopiaProjectile.DisplayName: Cornucopia Projectile
 	CornucopiaSmallProjectile.DisplayName: Cornucopia Small Projectile
+	BrightSteelArrowProjectile.DisplayName: Bright Steel Arrow Projectile
 }
 
 Tiles.BrightSteelOre.MapEntry: Bright Steel Ore
