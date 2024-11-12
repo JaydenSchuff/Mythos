@@ -1,3 +1,0 @@
-displayName = Mythos
-author = SirBozo
-version = 0.1
