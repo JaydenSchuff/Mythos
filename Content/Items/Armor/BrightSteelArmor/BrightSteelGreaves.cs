@@ -3,7 +3,7 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using Mythos.Content.Items.Placeables;
 
-namespace Mythos.Content.Items.Armor
+namespace Mythos.Content.Items.Armor.BrightSteelArmor
 {
     [AutoloadEquip(EquipType.Legs)]
 

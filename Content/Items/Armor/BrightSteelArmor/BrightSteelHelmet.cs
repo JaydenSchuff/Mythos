@@ -5,7 +5,7 @@ using Mythos.Content.Items.Placeables;
 using Terraria.Map;
 using Terraria.Localization;
 
-namespace Mythos.Content.Items.Armor
+namespace Mythos.Content.Items.Armor.BrightSteelArmor
 {
     [AutoloadEquip(EquipType.Head)]
 
