@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mythos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af4285a32d6a1d8e3c1b36c7c3a8616f21839fb3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ddd6a199e8c63fc97c4154c153f0c7aff5208359")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mythos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mythos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
