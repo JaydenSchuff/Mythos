@@ -10,8 +10,9 @@ namespace Mythos.Content.Items.Weapons
 		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.Mythos.hjson' file.
 		public override void SetDefaults()
 		{
-			Item.width = 40;
-            Item.height = ;
+			Item.width = 18;
+            Item.height = 18;
+			Item.scale = 1.5f;
 
             Item.useTime = 18;
             Item.useAnimation = 20;
