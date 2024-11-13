@@ -10,13 +10,14 @@ namespace Mythos.Content.Items.Weapons
 		// The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.Mythos.hjson' file.
 		public override void SetDefaults()
 		{
-			Item.width = 12;
-            Item.height = 12;
+			Item.width = 40;
+            Item.height = ;
 
-            Item.useTime = 10;
-            Item.useAnimation = 12;
+            Item.useTime = 18;
+            Item.useAnimation = 20;
             Item.useStyle = ItemUseStyleID.Swing;
             Item.useTurn = true;
+			Item.autoReuse = true;
 
             Item.DamageType = DamageClass.Melee;
             Item.damage = 22;
