@@ -10,9 +10,9 @@ namespace Mythos.Content.Items.Weapons
     {
         public override void SetDefaults()
         {
-           Item.width = 20;
-           Item.height = 40;
-           Item.scale = 0.6f;
+           Item.width = 40;
+           Item.height = 80;
+           Item.scale = 0.8f;
 
            Item.useTime = 32;
            Item.useAnimation = 32;
