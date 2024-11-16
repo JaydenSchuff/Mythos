@@ -75,6 +75,16 @@ Items: {
 		DisplayName: Bright Steel Bow
 		Tooltip: ""
 	}
+
+	SylvaBar: {
+		DisplayName: Sylva Bar
+		Tooltip: ""
+	}
+
+	SylvaOre: {
+		DisplayName: Sylva Ore
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -84,5 +94,9 @@ Projectiles: {
 	BrightSteelArrowProjectile.DisplayName: Bright Steel Arrow Projectile
 }
 
-Tiles.BrightSteelOre.MapEntry: Bright Steel Ore
+Tiles: {
+	BrightSteelOre.MapEntry: Bright Steel Ore
+	SylvaOre.MapEntry: Sylva Ore
+}
+
 ItemSetBonus.BrightSteelSet: Ichor Buff for Melee Weapons

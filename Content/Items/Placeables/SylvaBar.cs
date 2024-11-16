@@ -4,11 +4,11 @@ using Terraria.ModLoader;
 
 namespace Mythos.Content.Items.Placeables
 { 
-	public class BrightSteelBar : ModItem
+	public class SylvaBar : ModItem
 	{
         public override void SetStaticDefaults()
         {
-            ItemID.Sets.SortingPriorityMaterials[Type] = 61;
+            ItemID.Sets.SortingPriorityMaterials[Type] = 59;
         }
         // The Display Name and Tooltip of this item can be edited in the 'Localization/en-US_Mods.Mythos.hjson' file.
         public override void SetDefaults()
@@ -25,14 +25,14 @@ namespace Mythos.Content.Items.Placeables
             Item.useTurn = true;
             Item.autoReuse = true;
 
-            Item.createTile = ModContent.TileType<Tiles.BrightSteelBar>();
+            Item.createTile = ModContent.TileType<Tiles.SylvaBar>();
             Item.placeStyle = 0;
         }
 
         public override void AddRecipes()
 		{
 			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient<BrightSteelOre>(4);
+			recipe.AddIngredient<SylvaOre>(4);
 			recipe.AddTile(TileID.Furnaces);
 			recipe.Register();
 		}

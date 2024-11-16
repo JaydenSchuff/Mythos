@@ -9,11 +9,12 @@ namespace Mythos.Common.Systems
     {
         public override void ModifyWorldGenTasks(List<GenPass> tasks, ref double totalWeight)
         {
-           int shiniesIndex = tasks.FindIndex(t => t.Name.Equals("Shinies"));
-           if(shiniesIndex != -1)
-           {
-                tasks.Insert(shiniesIndex + 1, new BrightSteelOreGenPass("Bright Steel Ore Pass", 320f));
-           }
+            int shiniesIndex = tasks.FindIndex(t => t.Name.Equals("Shinies"));
+            if (shiniesIndex != -1)
+            {
+                // Only BrightSteel Ore will spawn during world generation
+                tasks.Insert(shiniesIndex + 1, new OreGenPass("Bright Steel Ore Pass", 320f, "BrightSteel"));
+            }
         }
     }
 }
