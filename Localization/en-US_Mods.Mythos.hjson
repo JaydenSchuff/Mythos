@@ -85,6 +85,11 @@ Items: {
 		DisplayName: Sylva Ore
 		Tooltip: ""
 	}
+
+	SylvaBow: {
+		DisplayName: Sylva Bow
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
