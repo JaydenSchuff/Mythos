@@ -24,8 +24,8 @@ namespace Mythos.Content.Projectiles.Weapons
 
         public override void AI()
         {
-            // Make the projectile move in the direction of the player's mouse position
-            if (Projectile.ai[0] == 0)
+            // Make the projectile move in the direction of the pla
+            
             {
                 // Calculate the direction the player is facing
                 Vector2 playerToMouse = Main.MouseWorld - Projectile.position; // Direction from the projectile to the mouse

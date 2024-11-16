@@ -6,7 +6,7 @@ using Mythos.Content.Projectiles.Weapons;
 
 namespace Mythos.Content.Items.Weapons.Bows
 { 
-    public class SylvaBow : ModItem
+    internal class SylvaBow : ModItem
     {
         public override void SetDefaults()
         {

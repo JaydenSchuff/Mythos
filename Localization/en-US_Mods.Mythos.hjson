@@ -90,6 +90,11 @@ Items: {
 		DisplayName: Sylva Bow
 		Tooltip: ""
 	}
+
+	RiptideBow: {
+		DisplayName: Riptide Bow
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
