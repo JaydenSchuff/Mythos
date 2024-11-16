@@ -12,7 +12,7 @@ namespace Mythos.Content.Items.Weapons
         {
            Item.width = 40;
            Item.height = 80;
-           Item.scale = 0.8f;
+           Item.scale = 0.5f;
 
            Item.useTime = 32;
            Item.useAnimation = 32;
@@ -36,7 +36,7 @@ namespace Mythos.Content.Items.Weapons
 
         public override Vector2? HoldoutOffset()
         {
-            return new Vector2(-4f, 2f);
+            return new Vector2(-15f, 2f);
         }
     }
 }
