@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Mythos.Content.Projectiles.Weapons;
 
-namespace Mythos.Content.Items.Weapons
+namespace Mythos.Content.Items.Weapons.Spears
 { 
     public class SpearOfDestiny : ModItem
 	{

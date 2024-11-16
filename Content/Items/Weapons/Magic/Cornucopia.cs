@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using Mythos.Content.Projectiles.Weapons;
 using Microsoft.Xna.Framework;
 
-namespace Mythos.Content.Items.Weapons
+namespace Mythos.Content.Items.Weapons.Magic
 {
     internal class Cornucopia : ModItem
     {

@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 using Mythos.Content.Projectiles.Weapons;
 
-namespace Mythos.Content.Items.Weapons
+namespace Mythos.Content.Items.Weapons.Bows
 {
     internal class BrightSteelBow : ModItem
     {

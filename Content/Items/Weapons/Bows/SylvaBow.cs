@@ -12,7 +12,7 @@ namespace Mythos.Content.Items.Weapons.Bows
         {
            Item.width = 40;
            Item.height = 80;
-           Item.scale = 0.8f;
+           Item.scale = 0.5f;
 
            Item.useTime = 32;
            Item.useAnimation = 32;

@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Mythos.Content.Items.Weapons
+namespace Mythos.Content.Items.Weapons.Swords
 { 
 	public class BrightSteelSword : ModItem
 	{
