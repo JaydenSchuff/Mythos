@@ -19,7 +19,7 @@ namespace Mythos.Content.Items.Weapons.Summon
         {
             Item.width = 40;
             Item.height = 80;
-            Item.scale = 0.8f;
+            Item.scale = 0.2f;
 
             Item.useTime = 20;
             Item.useAnimation = 20;
