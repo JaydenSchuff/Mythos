@@ -30,6 +30,8 @@ namespace Mythos.Content.Items.Weapons.Magic
 
             Item.shootSpeed = 1.5f;  // Adjust shoot speed (controls how fast the projectile moves)
             Item.shoot = ModContent.ProjectileType<CornucopiaProjectile>();
+
+            
         }
     }
 }

@@ -95,6 +95,11 @@ Items: {
 		DisplayName: Riptide Bow
 		Tooltip: ""
 	}
+
+	SylvaStaff: {
+		DisplayName: Sylva Staff
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -102,6 +107,7 @@ Projectiles: {
 	CornucopiaProjectile.DisplayName: Cornucopia Projectile
 	CornucopiaSmallProjectile.DisplayName: Cornucopia Small Projectile
 	BrightSteelArrowProjectile.DisplayName: Bright Steel Arrow Projectile
+	SylvaMinion.DisplayName: Sylva Minion
 }
 
 Tiles: {
@@ -110,3 +116,10 @@ Tiles: {
 }
 
 ItemSetBonus.BrightSteelSet: Ichor Buff for Melee Weapons
+
+Buffs: {
+	SylvaMinionBuff: {
+		DisplayName: Sylva Minion Buff
+		Description: Mods.Mythos.Buffs.SylvaMinionBuff.Description
+	}
+}
