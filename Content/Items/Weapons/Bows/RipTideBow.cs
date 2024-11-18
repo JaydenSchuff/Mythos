@@ -14,7 +14,7 @@ namespace Mythos.Content.Items.Weapons.Bows
         {
            Item.width = 46;
            Item.height = 90;
-           Item.scale = 0.6f;
+           Item.scale = 0.8f;
 
            Item.useTime = 25;
            Item.useAnimation = 25;
@@ -35,21 +35,9 @@ namespace Mythos.Content.Items.Weapons.Bows
 
            Item.useAmmo = AmmoID.Arrow;
         }
-/*
-        public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
-        {
-            int Proj = 1;
-            for (int i = 0; i < Proj; i++)
-            {
-                Vector2 NewVelocityOffset = velocity.RotatedBy(.1);
-                Projectile.NewProjectile(source, position , NewVelocityOffset, type, damage, knockback, player.whoAmI);
-            }
-            return true;
-        }
-*/
-
 public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
 {
+
     // Number of projectiles to shoot
     int numberProjectiles = 2;
     float pi = 3.14159265f;
@@ -90,9 +78,10 @@ public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, 
         );
     }
 
-    // Return false to prevent default projectile from being fired
+    // Return false to prevent the default projectile from being fired
     return false;
 }
+
 
 
 
