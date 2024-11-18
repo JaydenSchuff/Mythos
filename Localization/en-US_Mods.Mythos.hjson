@@ -100,6 +100,34 @@ Items: {
 		DisplayName: Sylva Staff
 		Tooltip: ""
 	}
+
+	SirenScaleChestplate: {
+		DisplayName: Siren Scale Chestplate
+		Tooltip:
+			'''
+			adds 5% ranged damage.
+			adds 5% critical strike chance.
+			adds 20% chance to not consume ammo.
+			'''
+	}
+
+	SirenScaleGreaves: {
+		DisplayName: Siren Scale Greaves
+		Tooltip:
+			'''
+			adds 5% ranged damage.
+			adds 5% critical strike chance.
+			'''
+	}
+
+	SirenScaleHelmet: {
+		DisplayName: Siren Scale Helmet
+		Tooltip:
+			'''
+			adds 5% ranged damage.
+			adds 5% critical strike chance.
+			'''
+	}
 }
 
 Projectiles: {
@@ -115,7 +143,10 @@ Tiles: {
 	SylvaOre.MapEntry: Sylva Ore
 }
 
-ItemSetBonus.BrightSteelSet: Ichor Buff for Melee Weapons
+ItemSetBonus: {
+	BrightSteelSet: Ichor Buff for Melee Weapons
+	SirenScaleSet: 15% increased damage while and water breathing.
+}
 
 Buffs: {
 	SylvaMinionBuff: {

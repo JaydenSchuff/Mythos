@@ -22,24 +22,17 @@ namespace Mythos.Content.Items.Armor.SirenScaleArmor
             Item.height = 18;
 
             Item.value = Item.buyPrice(silver: 50);
-            Item.rare = ItemRarityID.Blue;
+            Item.rare = ItemRarityID.Orange;
 
-            Item.defense = 5;
+            Item.defense = 6;
         }
 
         public override void UpdateEquip(Player player)
         {
             player.statLifeMax2 += 5;
-            player.GetCritChance(DamageClass.Generic) += 4;
+            player.GetCritChance(DamageClass.Generic) += 5;
+            player.GetDamage(DamageClass.Ranged) += .05f;
         }
-
-        public override void AddRecipes()
-		{
-			Recipe recipe = CreateRecipe();
-			recipe.AddIngredient(ModContent.ItemType<BrightSteelBar>(), 8);
-			recipe.AddTile(TileID.Anvils);
-			recipe.Register();
-		}
 
         public override bool IsArmorSet(Item head, Item body, Item legs)
         {
@@ -50,10 +43,13 @@ namespace Mythos.Content.Items.Armor.SirenScaleArmor
 
         public override void UpdateArmorSet(Player player)
         {
-            player.setBonus = Language.GetTextValue("Mods.Mythos.ItemSetBonus.BrightSteelSet");
-            if (player.HeldItem.DamageType == DamageClass.Melee)
+            player.setBonus = Language.GetTextValue("Mods.Mythos.ItemSetBonus.SirenScaleSet");
+            if (player.wet)
                 {
-                    player.AddBuff(BuffID.WeaponImbueIchor, 2);
+                    player.AddBuff(BuffID.Gills, 2);
+                    player.AddBuff(BuffID.Flipper, 2);
+                    player.GetDamage(DamageClass.Ranged) += .15f;
+                    player.maxRunSpeed += 0.15f;
                 }
         }
     }

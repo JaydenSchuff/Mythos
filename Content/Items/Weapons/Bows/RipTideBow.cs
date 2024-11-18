@@ -32,12 +32,11 @@ namespace Mythos.Content.Items.Weapons.Bows
 
            Item.shoot = ProjectileID.WoodenArrowFriendly;
            Item.shootSpeed = 15f;
-
-           Item.useAmmo = AmmoID.Arrow;
         }
+    
+
 public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
 {
-
     // Number of projectiles to shoot
     int numberProjectiles = 2;
     float pi = 3.14159265f;
