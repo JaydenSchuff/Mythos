@@ -1,4 +1,4 @@
-﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework;
 using rail;
 using System;
 using Terraria;
@@ -24,8 +24,9 @@ namespace Mythos.Content.Projectiles.Minions
 
         public override void SetDefaults()
         {
-            Projectile.width = 18;
-            Projectile.height = 28;
+            Projectile.width = 12;
+            Projectile.height = 12;
+            Projectile.scale = .5f;
 
             Projectile.tileCollide = false;
 

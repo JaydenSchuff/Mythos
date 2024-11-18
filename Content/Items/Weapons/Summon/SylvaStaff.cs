@@ -17,9 +17,9 @@ namespace Mythos.Content.Items.Weapons.Summon
         }
         public override void SetDefaults()
         {
-            Item.width = 40;
-            Item.height = 80;
-            Item.scale = 0.8f;
+            Item.width = 18;
+            Item.height = 18;
+            Item.scale = 0.2f;
 
             Item.useTime = 20;
             Item.useAnimation = 20;
