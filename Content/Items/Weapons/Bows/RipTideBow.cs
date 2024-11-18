@@ -12,8 +12,8 @@ namespace Mythos.Content.Items.Weapons.Bows
     {
         public override void SetDefaults()
         {
-           Item.width = 46;
-           Item.height = 90;
+           Item.width = 18;
+           Item.height = 18;
            Item.scale = 0.6f;
 
            Item.useTime = 25;

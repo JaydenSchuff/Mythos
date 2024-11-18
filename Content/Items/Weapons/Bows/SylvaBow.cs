@@ -10,9 +10,9 @@ namespace Mythos.Content.Items.Weapons.Bows
     {
         public override void SetDefaults()
         {
-           Item.width = 40;
-           Item.height = 80;
-           Item.scale = 0.5f;
+           Item.width = 20;
+           Item.height = 40;
+           Item.scale = 1.15f;
 
            Item.useTime = 32;
            Item.useAnimation = 32;
@@ -37,6 +37,12 @@ namespace Mythos.Content.Items.Weapons.Bows
         public override Vector2? HoldoutOffset()
         {
             return new Vector2(-4f, 2f);
+        }
+
+        public override void PostUpdate()
+        {
+            // Apply the scale to the item when dropped in the world
+            Item.scale = 1.2f; // Match your desired scale
         }
     }
 }
